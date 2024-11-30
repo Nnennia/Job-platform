@@ -12,7 +12,7 @@ module.exports = function (server) {
 	io.on("connection", (socket) => {
 		console.log("A user connected:", socket.id);
 
-		// Handle room joining based on unique room identifier (e.g., combination of user IDs)
+		
 		socket.on("joinRoom", async (data) => {
 			const { employer, applicant } = data;
 
@@ -101,7 +101,7 @@ module.exports = function (server) {
 			}
 		});
 
-		// Listen for the `receiveMessage` event (optional for confirmation logs)
+		// Listen for the `receiveMessage` event 
 		socket.on("receiveMessage", (data) => {
 			console.log("Message received on client side:", data);
 		});
