@@ -4,7 +4,7 @@ const Chat = require("../models/chat");
 module.exports = function (server) {
 	const io = socketIo(server, {
 		cors: {
-			origin: "*", // Allow all origins (update this for production)
+			origin: "*",
 			methods: ["GET", "POST"],
 		},
 	});
