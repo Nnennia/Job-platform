@@ -78,9 +78,11 @@ This project is a backend system for a job platform that supports:
 
 ### User Authentication
 
-Endpoint Method Description
+##### Endpoint Method Description
+
 /auth POST Sign up or login user.
-Request Body
+
+##### Request Body
 
 Sign Up:
 
