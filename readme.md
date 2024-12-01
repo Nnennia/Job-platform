@@ -1,4 +1,4 @@
-Project Name: Job Platform Backend System
+# Project Name: Job Platform
 
 ## Table of Contents
 
@@ -15,7 +15,6 @@ Project Name: Job Platform Backend System
     Socket.io Features
     Database Models
     Error Handling
-    License
 
 ## Introduction
 
