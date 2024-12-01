@@ -101,9 +101,11 @@ Login:
 
 ### Job Management
 
-Endpoint Method Description
+##### Endpoint Method Description
+
 /work POST Handle job actions.
-Actions
+
+##### Actions
 
 Post Job:
 
@@ -123,14 +125,17 @@ Search Job:
       "jobTitle": "Software Engineer"
     }
 
-    Apply for Job:
+Apply for Job:
+
     Include a resume file in the request.
 
 ### Chat System
 
-Endpoint Method Description
+##### Endpoint Method Description
+
 /chat POST Create or retrieve chat.
-Request Body
+
+##### Request Body
 
     {
     "action": "chat",
