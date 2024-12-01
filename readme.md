@@ -49,20 +49,20 @@ This project is a backend system for a job platform that supports:
 
 ## Getting Started
 
-## Installation
+### Installation
 
     Clone the repository:
 
     git clone <repository-url>
     cd <repository-folder>
 
-## Install dependencies:
+### Install dependencies:
 
     npm install
 
-## Environment Variables
+### Environment Variables
 
-## Create a .env file in the root directory with the following keys:
+### Create a .env file in the root directory with the following keys:
 
     PORT=4000
     MONGO_URL=mongodb://<your-mongo-uri>
@@ -192,7 +192,3 @@ Message
 
     Centralized Middleware: Logs and returns structured JSON error responses.
     Redis Rate Limiting: Prevents brute-force attacks on login.
-
-License
-
-This project is licensed under the MIT License.
