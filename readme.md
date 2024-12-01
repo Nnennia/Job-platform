@@ -79,14 +79,14 @@ Endpoint Method Description
 /auth POST Sign up or login user.
 Request Body
 
-    Sign Up:
+Sign Up:
 
-{
-"action": "signup",
-"username": "user123",
-"password": "password123",
-"email": "user@example.com"
-}
+    {
+    "action": "signup",
+    "username": "user123",
+    "password": "password123",
+    "email": "user@example.com"
+    }
 
 Login:
 
@@ -127,21 +127,21 @@ Endpoint Method Description
 /chat POST Create or retrieve chat.
 Request Body
 
-{
-"action": "chat",
-"employer": "TechCorp",
-"applicant": "user123"
-}
+    {
+    "action": "chat",
+    "employer": "TechCorp",
+    "applicant": "user123"
+    }
 
 Socket.io Features
 
-    Join Room:
-    Users join a chat room by specifying the employer and applicant.
+Join Room:
+Users join a chat room by specifying the employer and applicant.
 
-{
-"employer": "TechCorp",
-"applicant": "user123"
-}
+    {
+    "employer": "TechCorp",
+    "applicant": "user123"
+    }
 
 Send Message:
 Send a message to the chat.
