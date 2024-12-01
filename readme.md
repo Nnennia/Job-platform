@@ -61,26 +61,7 @@ Install dependencies:
 Environment Variables
 
 Create a .env file in the root directory with the following keys:
-
-PORT=4000
-
-MONGO_URL=mongodb://<your-mongo-uri>
-
-JWT_SECRET=<your-jwt-secret>
-
-AWS_ACCESS_KEY_ID=<your-aws-access-key>
-
-AWS_SECRET_ACCESS_KEY=<your-aws-secret-key>
-
-AWS_REGION=<your-aws-region>
-
-AWS_S3_BUCKET_NAME=<your-s3-bucket-name>
-
-REDIS_HOST=<your-redis-host>
-
-REDIS_PORT=<your-redis-port>
-s
-REDIS_PASSWORD=<your-redis-password>
+PORT=4000 MONGO_URL=mongodb://<your-mongo-uri> JWT_SECRET=<your-jwt-secret> AWS_ACCESS_KEY_ID=<your-aws-access-key> AWS_SECRET_ACCESS_KEY=<your-aws-secret-key> AWS_REGION=<your-aws-region> AWS_S3_BUCKET_NAME=<your-s3-bucket-name> REDIS_HOST=<your-redis-host> REDIS_PORT=<your-redis-port> REDIS_PASSWORD=<your-redis-password>
 
 API Endpoints
 User Authentication
