@@ -62,7 +62,7 @@ This project is a backend system for a job platform that supports:
 
 ### Environment Variables
 
-### Create a .env file in the root directory with the following keys:
+#### Create a .env file in the root directory with the following keys:
 
     PORT=4000
     MONGO_URL=mongodb://<your-mongo-uri>
