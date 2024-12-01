@@ -55,7 +55,7 @@ This project is a backend system for a job platform that supports:
     git clone <repository-url>
     cd <repository-folder>
 
-### Install dependencies:
+#### Install dependencies:
 
     npm install
 
