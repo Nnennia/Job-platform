@@ -27,7 +27,7 @@ This project is a backend system for a job platform that supports:
     Resume upload and storage on AWS S3
     Advanced error handling and logging
 
-# Features
+## Features
 
     User Authentication: Sign up, login with hashed passwords, and JWT-based authentication.
     Job Management: Employers can post jobs, and applicants can search and apply.
@@ -36,7 +36,7 @@ This project is a backend system for a job platform that supports:
     Redis Integration: For caching and rate-limiting login attempts.
     WebSocket Support: Real-time messaging using Socket.io.
 
-Technologies Used
+## Technologies Used
 
     Backend Framework: Node.js with Express.js
     Database: MongoDB with Mongoose
@@ -47,21 +47,22 @@ Technologies Used
     Environment Management: dotenv
     Other: multer for file uploads, body-parser for parsing requests, and cors for cross-origin resource sharing.
 
-Getting Started
-Installation
+## Getting Started
+
+## Installation
 
     Clone the repository:
 
     git clone <repository-url>
     cd <repository-folder>
 
-Install dependencies:
+## Install dependencies:
 
     npm install
 
-Environment Variables
+## Environment Variables
 
-Create a .env file in the root directory with the following keys:
+## Create a .env file in the root directory with the following keys:
 
     PORT=4000
     MONGO_URL=mongodb://<your-mongo-uri>
@@ -74,8 +75,10 @@ Create a .env file in the root directory with the following keys:
     REDIS_PORT=<your-redis-port>
     REDIS_PASSWORD=<your-redis-password>
 
-API Endpoints
-User Authentication
+## API Endpoints
+
+### User Authentication
+
 Endpoint Method Description
 /auth POST Sign up or login user.
 Request Body
@@ -97,7 +100,8 @@ Login:
       "password": "password123"
     }
 
-Job Management
+### Job Management
+
 Endpoint Method Description
 /work POST Handle job actions.
 Actions
@@ -123,7 +127,8 @@ Search Job:
     Apply for Job:
     Include a resume file in the request.
 
-Chat System
+### Chat System
+
 Endpoint Method Description
 /chat POST Create or retrieve chat.
 Request Body
@@ -134,7 +139,7 @@ Request Body
     "applicant": "user123"
     }
 
-Socket.io Features
+## Socket.io Features
 
 Join Room:
 Users join a chat room by specifying the employer and applicant.
@@ -154,7 +159,8 @@ Send a message to the chat.
       "sender": "user123"
     }
 
-Database Models
+## Database Models
+
 User
 
     username: String (unique)
@@ -182,7 +188,7 @@ Message
     content: String
     timestamp: Date
 
-Error Handling
+## Error Handling
 
     Centralized Middleware: Logs and returns structured JSON error responses.
     Redis Rate Limiting: Prevents brute-force attacks on login.
