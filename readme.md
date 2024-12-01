@@ -1,5 +1,6 @@
 Project Name: Job Platform Backend System
-Table of Contents
+
+## Table of Contents
 
     Introduction
     Features
@@ -16,7 +17,7 @@ Table of Contents
     Error Handling
     License
 
-Introduction
+## Introduction
 
 This project is a backend system for a job platform that supports:
 
@@ -26,7 +27,7 @@ This project is a backend system for a job platform that supports:
     Resume upload and storage on AWS S3
     Advanced error handling and logging
 
-Features
+# Features
 
     User Authentication: Sign up, login with hashed passwords, and JWT-based authentication.
     Job Management: Employers can post jobs, and applicants can search and apply.
@@ -51,8 +52,8 @@ Installation
 
     Clone the repository:
 
-git clone <repository-url>
-cd <repository-folder>
+    git clone <repository-url>
+    cd <repository-folder>
 
 Install dependencies:
 
