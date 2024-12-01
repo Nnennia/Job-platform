@@ -1,14 +1,14 @@
 const { createClient } = require("redis");
 require("dotenv").config();
 
-let client; // Shared Redis client instance
+let client;
 
 const connectToRedis = async () => {
 	if (!client) {
 		client = createClient({
-			password: process.env.password, // Match environment variable naming conventions
+			password: process.env.password,
 			socket: {
-				host: process.env.host, // Update environment variable names for clarity
+				host: process.env.host, 
 				port: process.env.redis_port,
 			},
 		});
